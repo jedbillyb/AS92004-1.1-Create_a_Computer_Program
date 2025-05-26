@@ -156,7 +156,7 @@ def get_shuttle_bus(shuttle_bus_cost):
             shuttle_bus = 'not take'
             return aditional_cost, shuttle_bus
         else:
-            print('Invalid input. Please enter "yes" or "no".')
+            print('Invalid input. Please enter "yes" "y" or "no" "n".')
             print()
 
 # Call the function to get camper shuttle bus choice
